@@ -28,4 +28,4 @@ Once you have a pre-trained model called **model.h5** ou can run the command bel
 
 **python predict.py you_prediction_file.txt**
 
-The predictions will be saved as a dataframe called testSet.csv
+The predictions are saved as a dataframe called testSet.csv
