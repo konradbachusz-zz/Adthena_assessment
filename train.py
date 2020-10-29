@@ -78,6 +78,7 @@ X_train = tokenizer.texts_to_sequences(X_train)
 X_test = tokenizer.texts_to_sequences(X_test)
 
 #Convert feature sequences into matricies and obtain term frequency–inverse document frequency values
+#TFIDF=(term frequency in a sentence/n of words in a sentence)*(log(n of sentences/n of sentences containing word))
 X_train = tokenizer.sequences_to_matrix(X_train, mode='tfidf')
 X_test = tokenizer.sequences_to_matrix(X_test, mode='tfidf')
 
